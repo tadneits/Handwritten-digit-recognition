@@ -42,7 +42,7 @@ x_test /= 255
 
 batch_size = 128
 num_classes = 10
-epochs = 1
+epochs = 100
 
 # Xây dựng mô hình neural network
 model = Sequential()
