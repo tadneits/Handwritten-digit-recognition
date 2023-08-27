@@ -10,7 +10,7 @@
 
 3. **Biên dịch mô hình**: Trước khi huấn luyện, mô hình được biên dịch với hàm mất mát là categorical_crossentropy (sử dụng với các bài toán phân loại nhiều lớp), tối ưu hóa Adam với learning rate là 0.001 và độ đo là accuracy.
 
-4. **Huấn luyện mô hình**: Sử dụng dữ liệu huấn luyện từ MNIST, mô hình được huấn luyện trong 10 epochs (vòng lặp huấn luyện) với kích thước batch là 128. Dữ liệu kiểm tra được sử dụng để đánh giá mô hình sau mỗi epoch.
+4. **Huấn luyện mô hình**: Sử dụng dữ liệu huấn luyện từ MNIST, mô hình được huấn luyện trong 100 epochs (vòng lặp huấn luyện) với kích thước batch là 128. Dữ liệu kiểm tra được sử dụng để đánh giá mô hình sau mỗi epoch.
 
 5. **Lưu mô hình và nhật ký**: Sau khi huấn luyện, mô hình được lưu vào file 'mnist.h5' để có thể sử dụng lại sau này. Nhật ký huấn luyện, bao gồm thông tin về số epoch, loss và accuracy trên tập huấn luyện và tập kiểm tra, được lưu vào file 'training_log.csv'.
 
