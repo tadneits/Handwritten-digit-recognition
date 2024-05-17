@@ -16,7 +16,7 @@
 
 ## Yêu cầu hệ thống:
 
-- Python 3.x
+- Python 3.11
 - Thư viện Keras, numpy, csv, tensorflow, PIL (có thể cài đặt thông qua pip)
 
 ## Cách sử dụng:
